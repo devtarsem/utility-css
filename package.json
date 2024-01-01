@@ -1,10 +1,9 @@
 {
   "name": "tareasy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package generates Utility css files for better UI design",
   "main": "UI.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Tarsem singh",
   "license": "ISC",
   "dependencies": {
