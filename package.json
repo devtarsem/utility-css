@@ -1,6 +1,6 @@
 {
   "name": "tareasy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package generates Utility css files for better UI design",
   "main": "UI.js",
   "scripts": {},
