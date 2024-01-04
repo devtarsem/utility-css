@@ -1,12 +1,25 @@
 const fs = require('fs')
 const prompt = require('prompt')
 
-class buildUI{
+export class buildUI{
  
     buildingRoot(){
         fs.mkdirSync("Utility-UI")
     }
 
+    nav(){
+        const nav_resuable = `function Nav(){
+                return(
+                    <div className='class'>
+                        <h1 className>hero</h1>
+                    </div>
+                )
+        }
+        `
+        fs.mkdirSync('UI-COMP')
+        fs.writeFileSync('UI-COMP/utility_nav.jsx', nav_resuable)
+    }
+    
 
     
 
